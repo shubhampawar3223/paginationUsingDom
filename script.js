@@ -166,7 +166,7 @@ function mouse_over(event){
         event.target.style.backgroundColor = "orange";
     setTimeout(function() {
       event.target.style.backgroundColor = "";
-    }, 250);
+    }, 150);
 }
 
 fetch_data(1);
